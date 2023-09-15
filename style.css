@@ -1,0 +1,134 @@
+
+header {
+    background-color: aqua;
+    height: 50px;
+    width: 100%;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.search-button {
+    background-color: transparent;
+    border: none;
+}
+
+.searchbar-holder {
+    background-color: antiquewhite;
+    width: 350px;
+    display: flex;
+    align-items:center;
+    border-radius: 20px;
+}
+
+.search {
+    height: 30px;
+    width: 300px;
+    background-color: rgb(206, 206, 206);
+    border-radius: 10px;
+    border-color: aliceblue;
+}
+
+#search-value {
+    height: 100%;
+    width: 100%;
+}
+
+#search-img {
+    height: 20px;
+}
+
+.section-content {
+    height: 100%;
+    width: 100%;
+    margin-top: -50px;
+    display: flex;
+}
+
+.weather-holder {
+    height: 80%;
+    width: 50%;
+    background-color: antiquewhite;
+    margin-top: 100px;
+    margin-left: 3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-content-holder {
+    height: 80%;
+    width: 40%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-content-details {
+    background-color: rgb(119, 119, 249);
+    height: 80%;
+    width: 40%;
+}
+
+.wind-details {
+    height: 45%;
+    width: 100%;
+    padding: 10px;
+    background-color: brown;
+}
+
+.predictions-container {
+    height: 45%;
+    width: 100%;
+    display: flex;
+    background-color: blueviolet;
+}
+
+.box-holder::-webkit-scrollbar {
+    display: none;
+}
+
+.box-holder {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    align-items: center;
+    padding: 20px;
+}
+
+.secoundary-container {
+    height: 80%;
+    width: 35%;
+    margin-top: 100px;
+    margin-left: 5%;
+    display: flex;
+    color: aliceblue;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#direction-needle {
+    height: 75%;
+    margin-left: 60%;
+}
+
+.wind-content {
+    margin-top: -150px;
+}
+
+.predition {
+    height: 200px;
+    width: 400px;
+    display: flex;
+    margin-right: 20px;
+    background-color: rgb(3, 49, 90);
+}
+
+.scroll-button {
+    height: 100%;
+    width: 50px;
+}
